@@ -4,12 +4,12 @@ import dao.ProductDAO;
 import dao.RatingDAO;
 import ef.qb.core.QueryBuilder;
 
-public class Simple2 {
+public class Conventional2 {
 
     private static ProductDAO productDAO;
     private static RatingDAO ratingDAO;
 
-    public Simple2() {
+    public Conventional2() {
         productDAO = QueryBuilder.create(ProductDAO.class);
         ratingDAO = QueryBuilder.create(RatingDAO.class);
     }
